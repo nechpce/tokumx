@@ -8,7 +8,13 @@ from the host.
 
 ### Build
 
+Build the Dockerfile locally:
+
     docker build -t "nechpce/tokumx" github.com/nechpce/tokumx
+
+or download the automatically built docker image from docker hub:
+
+    docker pull nechpce/tokumx
 
 
 ### Usage
